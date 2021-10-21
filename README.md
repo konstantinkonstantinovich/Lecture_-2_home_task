@@ -1,1 +1,1 @@
-# Lecture_-2_home_task
+# Lecture №2: Linux, GIT, IDE. Home task
