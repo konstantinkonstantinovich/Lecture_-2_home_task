@@ -3,7 +3,7 @@
 This repository contains lecture homework.
 
 
-Mini Task #1 contains 2 files: script.rb, script. The first file outputs the calculation result 1000-7 to the console, the second script executes a command that reads a line from the command line and prints it to the console.
+Mini Task #1 contains 2 files: ```script.rb```, ```script```. The first file outputs the calculation result 1000-7 to the console, the second script executes a command that reads a line from the command line and prints it to the console.
 
 How to run Mini Task #1:
 
@@ -30,4 +30,21 @@ How to run Mini Task #2
   ```
   ruby drinks.rb
   ```
+  
+Console output for Mini Task #2:
+
+```ruby
+
+["Cola", "Water", "Juice"]
+###################
+{:price=>40.0, :name=>"Pepsi", :quantity_by_size=>{}}
+{:price=>39.99, :name=>"Water", :quantity_by_size=>{:l033=>1, :l2=>4}}
+###################
+[{:price=>40.0, :name=>"Pepsi", :quantity_by_size=>{}}]
+###################
+{:l033=>3, :l05=>7, :l1=>8, :l2=>4}
+###################
+36
+
+```
   
