@@ -20,7 +20,7 @@ How to run Mini Task #1:
   ```
 
 
-Mini Task #2 contains the drinks.rb file which contains the Drinks class. The following functions are implemented in this class: item_in_stock, afforbadle, out_of_stock, how_much_left, total_stock.
+Mini Task #2 contains the ```drinks.rb``` file which contains the Drinks class. The following functions are implemented in this class: item_in_stock, afforbadle, out_of_stock, how_much_left, total_stock.
 
 
 How to run Mini Task #2
