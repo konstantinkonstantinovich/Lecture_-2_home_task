@@ -25,7 +25,8 @@ Mini Task #2 contains the drinks.rb file which contains the Drinks class. The fo
 
 How to run Mini Task #2
 
-* Get to ```./MiniTask#2```folder and run:
+* Get to ```./MiniTask#2``` folder and run:
+
   ```
   ruby drinks.rb
   ```
