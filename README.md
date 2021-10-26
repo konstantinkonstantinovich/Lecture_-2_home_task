@@ -1,14 +1,25 @@
-# Lecture №2: Linux, GIT, IDE. Home task
+# Mini Task repository
 
+This repository contains lecture homework.
 
-The repository contains three files: script, README.md, script.rb
-
-How to run:
+How to run Mini Task #1:
 
 * To run the bash script, you need to enter the command:  
 
-  **```./script```**
+  ```
+  ./script
+  ```
 
 * To run the ruby file, you must enter the command: 
 
-  **```ruby script.rb```**
+  ```
+  ruby script.rb
+  ```
+
+How to run Mini Task #2
+
+* Get to ```./MiniTask#2```folder and run:
+  ```
+  ruby drinks.rb
+  ```
+  
