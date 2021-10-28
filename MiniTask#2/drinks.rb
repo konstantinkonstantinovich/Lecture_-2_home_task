@@ -10,7 +10,7 @@ class Drinks
         result.push(data[:name])
       end
     end
-    return result
+    return result.sort()
   end
 
   def afforbadle
