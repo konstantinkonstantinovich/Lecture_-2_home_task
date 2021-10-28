@@ -35,7 +35,7 @@ Console output for Mini Task #2:
 
 ```ruby
 
-["Cola", "Water", "Juice"]
+["Cola", "Juice", "Water"]
 ###################
 {:price=>40.0, :name=>"Pepsi", :quantity_by_size=>{}}
 {:price=>39.99, :name=>"Water", :quantity_by_size=>{:l033=>1, :l2=>4}}
