@@ -13,7 +13,7 @@ How to run Mini Task #1:
   ./script
   ```
 
-* To run the ruby file, you must enter the command: 
+* To run the ruby file, you must enter the command:
 
   ```sh
   ruby script.rb
@@ -30,7 +30,7 @@ How to run Mini Task #2
   ```sh
   ruby drinks.rb
   ```
-  
+
 Console output for Mini Task #2:
 
 ```ruby
@@ -52,7 +52,7 @@ Console output for Mini Task #2:
 Mini Task #3 contains a dsl.rb file that contains a Domain Specific Language (DSL) pseudo HTML page generator.
 
 
-  
+
 How to run  ```dsl.rb```:
 * Get to ```./MiniTask#3``` folder and run:
 
@@ -62,7 +62,7 @@ How to run  ```dsl.rb```:
 
 Console output for Mini Task #3:
 
-```ruby
+```html
 
 <!doctype html>
 
@@ -79,12 +79,10 @@ Console output for Mini Task #3:
 </head>
 
 <body>
-        <div></div>
+        <div>Hello World</div>
         <script src="js/scripts.js"> </script>
 </body>
 
 </html>
 
 ```
- 
- 
