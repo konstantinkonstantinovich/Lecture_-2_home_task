@@ -5,6 +5,11 @@ class MDHtml
     instance_eval &block
   end
 
+  def method_missing(m, *args, &block)
+    puts m
+    puts *args
+  end
+
   def head(&block)
     @@output << "<head>\n"
     instance_eval &block
@@ -13,10 +18,10 @@ class MDHtml
 
   def meta(**content)
     if content.keys.join == "charset"
-      @@output << "\t<meta #{content.keys[0]}=\"#{content.values[0]}\" >\n"
+      @@output << "\t<meta #{content.keys[0]}=\"#{content.values[0]}\">\n"
 
     else
-      @@output << "\t<meta name=\"#{content.keys[0]}\" content=\"#{content.values[0]}\" >\n"
+      @@output << "\t<meta name=\"#{content.keys[0]}\" content=\"#{content.values[0]}\">\n"
     end
   end
 
@@ -31,8 +36,7 @@ class MDHtml
 
   def div(&block)
     @@output << "\t<div>"
-    instance_eval &block
-
+    @@output << block.call()
     @@output << "</div>"
 
   end
