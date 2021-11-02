@@ -3,7 +3,9 @@
 This repository contains lecture homework.
 
 
-Mini Task #1 contains 2 files: ```script.rb```, ```script```. The first file outputs the calculation result 1000-7 to the console, the second script executes a command that reads a line from the command line and prints it to the console.
+## Mini Task #1 
+
+contains 2 files: ```script.rb```, ```script```. The first file outputs the calculation result 1000-7 to the console, the second script executes a command that reads a line from the command line and prints it to the console.
 
 How to run Mini Task #1:
 
@@ -20,7 +22,9 @@ How to run Mini Task #1:
   ```
 
 
-Mini Task #2 contains the ```drinks.rb``` file which contains the Drinks class. The following functions are implemented in this class: item_in_stock, afforbadle, out_of_stock, how_much_left, total_stock.
+## Mini Task #2
+
+contains the ```drinks.rb``` file which contains the Drinks class. The following functions are implemented in this class: item_in_stock, afforbadle, out_of_stock, how_much_left, total_stock.
 
 
 How to run Mini Task #2
@@ -49,8 +53,9 @@ Console output for Mini Task #2:
 ```
 
 
-Mini Task #3 contains a dsl.rb file that contains a Domain Specific Language (DSL) pseudo HTML page generator.
+## Mini Task #3 
 
+contains a dsl.rb file that contains a Domain Specific Language (DSL) pseudo HTML page generator.
 
 
 How to run  ```dsl.rb```:
