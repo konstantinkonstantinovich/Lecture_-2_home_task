@@ -1,0 +1,5 @@
+Header = Struct.new(:text)
+Text = Struct.new(:text)
+Section = Struct.new(:title, :text)
+Link = Struct.new(:text, :url)
+Image = Struct.new(:text, :url)

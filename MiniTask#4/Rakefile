@@ -1,0 +1,7 @@
+task default: %w[cleanup]
+
+desc 'cleanup'
+task :cleanup, [:dir] do |t, args|
+  FileUtils.rm_f(Dir.glob("#{args[:dir]}/*html"))
+  FileUtils.rm_f(Dir.glob("#{args[:dir]}/*md"))
+end
